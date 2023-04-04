@@ -8,7 +8,7 @@ jobs:
     name: Run E2E Tests
     runs-on: ubuntu-latest
 
-    service:
+    services:
       postgres:
         image: bitnami/postgresql
         ports:
